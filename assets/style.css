@@ -42,7 +42,7 @@ h2 a:hover {
 footer {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   background-color: aliceblue;
   height: 30px;
 }
@@ -86,7 +86,6 @@ footer {
 .project {
   display: flex;
   text-align: center;
-
   width: 100%;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -109,7 +108,7 @@ footer {
 .section1 {
   display: flex;
   border: 10px black solid;
-  margin: 10px;
+  margin: 20px;
   padding-left: 10px;
   width: 30%;
   justify-content: center;
@@ -121,7 +120,7 @@ footer {
   display: flex;
   width: 30%;
   border: 10px black solid;
-  margin: 10px;
+  margin: 20px;
   padding-right: 10px;
   justify-content: center;
   background-image: url(./texture1.jpeg);
@@ -138,9 +137,20 @@ form {
 h1 a {
   text-decoration: none;
   color: aliceblue;
+  justify-content: auto;
 }
 
 h2 a {
   text-decoration: none;
   color: black;
+}
+
+@media screen and (max-width: 768px) {
+  /* Use flex-direction to stack the navbar, sidebar, and body */
+  div,
+  #mainpic {
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+  }
 }
