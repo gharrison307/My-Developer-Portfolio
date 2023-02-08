@@ -42,7 +42,7 @@ h2 a:hover {
 footer {
   display: flex;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
   background-color: aliceblue;
   height: 30px;
 }
