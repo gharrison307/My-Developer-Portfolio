@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aliceblue;
+}
+
+header h1 {
+  color: black;
+  font-size: 45px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  justify-content: center;
+  align-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 25px;
+  font-size: 35px;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  height: 30px;
+}
+
+.main {
+  width: 100%;
+  background-color: skyblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.main h1 {
+  color: black;
+  font-size: 34px;
+}
+
+.main p {
+  font-size: 24px;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+#mainpic {
+  display: inline-flex;
+  justify-content: left;
+  align-content: left;
+  width: 400px;
+  height: 400px;
+}
+
+#mainpic2 {
+  display: inline-flex;
+  justify-content: center;
+  align-content: Center;
+  height: 200px;
+  padding: 35px;
+}
+
+.project {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.main2 {
+  display: flex;
+  border: 10px black solid;
+  justify-content: left;
+  align-content: center;
+  margin: 20px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  font-size: 44px;
+  color: aqua;
+  background-image: url(./Beach.jpeg);
+  background-size: 100% 100%;
+}
+
+.section1 {
+  display: flex;
+  border: 10px black solid;
+  margin: 10px;
+  padding-left: 10px;
+  width: 30%;
+  justify-content: center;
+  background-image: url(./texture2.jpeg);
+}
+
+.section2 {
+  display: flex;
+  width: 30%;
+  border: 10px black solid;
+  margin: 10px;
+  padding-right: 10px;
+  justify-content: center;
+  background-image: url(./texture1.jpeg);
+}
+
+form {
+  display: inline-block;
+  border: 5px solid black;
+  width: 20%;
+  justify-content: center;
+  font-size: 18px;
+}
+
+h1 a {
+  text-decoration: none;
+  color: aliceblue;
+}
