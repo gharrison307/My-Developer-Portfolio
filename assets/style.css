@@ -35,6 +35,10 @@ h1 a:hover {
   font-size: 125%;
 }
 
+h2 a:hover {
+  font-size: 125%;
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -98,7 +102,6 @@ footer {
   justify-content: center;
   align-items: center;
   font-size: 44px;
-  color: aqua;
   background-image: url(./Beach.jpeg);
   background-size: 100% 100%;
 }
@@ -111,6 +114,7 @@ footer {
   width: 30%;
   justify-content: center;
   background-image: url(./texture2.jpeg);
+  color: black;
 }
 
 .section2 {
@@ -134,4 +138,9 @@ form {
 h1 a {
   text-decoration: none;
   color: aliceblue;
+}
+
+h2 a {
+  text-decoration: none;
+  color: black;
 }
