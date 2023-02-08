@@ -112,6 +112,7 @@ footer {
   width: 30%;
   justify-content: center;
   background-image: url(./texture2.jpeg);
+  background-size: 100% 100%;
   color: black;
 }
 
